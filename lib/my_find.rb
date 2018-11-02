@@ -7,6 +7,7 @@ def my_find(collection)
   if yield(collection[i])
   # that new number/item is passed in as the argument and then incremented upon
     return collection[i]
+    # if found true then end the loop, if not continue through
   end 
     i = i + 1 
     # iterating by increment 
